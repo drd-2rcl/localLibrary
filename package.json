@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
+  },
+  "scripts":{
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
   }
 }
