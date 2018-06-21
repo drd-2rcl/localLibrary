@@ -15,7 +15,7 @@ var app = express();
 //CONTINUAR DAQUI: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose  --> Defining the LocalLibrary Schema
 
 //Set up default mongoose connection
-var mongoDB = 'mongoDB://127.0.0.1/my_database';
+var mongoDB = 'mongodb://drd:2D5i2d5IssdrFKY@ds163650.mlab.com:63650/diogodb';
 mongoose.connect(mongoDB);
 
 //Get Mongoose to use the global promise library
